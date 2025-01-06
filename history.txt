@@ -1,0 +1,18 @@
+ 1194  git branch -l
+ 1195  ls -la
+ 1198  echo "This is readme" > README.md
+ 1199  git add README.md
+ 1200  git commit -m 'Add readme'
+ 1201  git push
+ 1202  git commit --amend
+ 1203  git branch -l
+ 1204  git checkout main
+ 1205  git pull
+ 1206  git checkout -b main
+ 1207  git pull
+ 1208  git merge feature
+ 1209  ls
+ 1210  ls -la
+ 1211  git log
+ 1212  git push
+ 1213  history
